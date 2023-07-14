@@ -7,7 +7,8 @@ In this readme i will explain the stage of creating my week 5 assignment.
 
 ## Stage of building website
 ### 1. Clone Github
-![](https://raw.githubusercontent.com/RevoU-FSSE-2/Muhammad-Faisal-Kemal_Weekly_W5/main/image/7.webp)
-![](https://raw.githubusercontent.com/RevoU-FSSE-2/Muhammad-Faisal-Kemal_Weekly_W5/main/image/8.webp)
+with git bash, first i clone my own repositories and go to the project folder
+![](https://raw.githubusercontent.com/RevoU-FSSE-2/Muhammad-Faisal-Kemal_Weekly_W5/main/image/6a.webp)
+
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/f6dTnkNL)
