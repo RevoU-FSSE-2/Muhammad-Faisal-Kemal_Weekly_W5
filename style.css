@@ -1,0 +1,313 @@
+:root{
+    font-size: 62.5%;
+    --primary-color: #E5D9B6;
+    --overlay: #000000b9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*General Styling*/
+body{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    object-fit: cover;
+}
+hr{
+    border: 1px solid var(--primary-color);
+}
+article{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 5rem 0 5rem;
+}
+.overlay{
+    background: var(--overlay);
+}
+.bg-primary{
+    background-color: var(--primary-color);
+    color: black;
+}
+/*Main Styling*/
+header{
+    background: #A4BE7B;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#logo{
+    display: none;
+}
+nav a{
+    color: black;
+    padding: 0.0625em;
+}
+nav li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+nav a:hover{
+    color: #5F8D4E;
+    background-color: #A4BE7B ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.home-bg-image{
+    background-image: url(image/1.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #A4BE7B;
+    text-shadow: 1.1px 1.1px;
+}
+.home{
+    font-size: 2.9rem;
+    padding-top: 6em;
+}
+h1{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+h2{
+    font-size: 3rem;
+    padding: 0.2em;
+    margin-bottom: 1em;
+}
+h3{
+    font-size: 2.5rem;
+    margin: 0.5em;
+}
+.home p{
+    font-size: 2rem;
+    margin-top: 1em;
+    font-weight: 300;
+}
+button{
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: 500;
+}
+.submit-btn{
+    color: black;
+    background-color: #285430;
+    border: 1px solid var(--primary-color);
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.submit-btn:hover{
+    background-color: #5F8D4E;
+    color: white;
+    border: 1px solid white;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+.features-card i{
+    font-size: 100px;
+}
+.features-card{
+    font-size: 1.5rem;
+    margin: 3rem;
+    width: 20rem;
+    border: 1px solid white;
+    padding: 1.5em;
+}
+#information{
+    background-color: #A4BE7B;
+}
+.information p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+form{
+    width: 90%;
+    margin: auto;
+}
+.contact label{
+    font-size: 1.4rem;
+}
+input[type="text"],input[type="email"]{
+    font-size: 2rem;
+    width: 100%;
+    color: black;
+    background: transparent;
+    border: 2px, solid black;
+    border-radius: 5px 5px;
+    padding: 0.3em;
+}
+textarea{
+    height: 14.5rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+    font-size: 2rem;
+    padding: 0.3em;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    outline: 2px solid white;
+}
+/*CARD*/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 23rem;
+    height: 27em;
+    box-shadow: 2px 5px 7px 1px;
+    font-size: 1.3rem;
+    position: relative;
+    border-radius: 5px;
+    margin: 3rem;
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+.card:hover{
+    transform: scale(1.009);
+}
+.upper-part{
+    height: 35%;
+    background-color: #285430;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.lower-part{
+    height: 65%;
+    padding: 0.095em;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid var(--primary-color);
+}
+.image-container{
+    position: absolute;
+    top: 17%;
+    left: 27%;
+}
+.info{
+    margin-top: 25%;
+}
+.card-name{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.card-line{
+    width: 80%;
+    margin: 1rem auto;
+}
+.social-icons{
+    font-size: 2.7rem;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.fa-facebook{
+    color: #3f62a9;
+}
+.fa-twitter{
+    color: #1c99e7;
+}
+.fa-instagram{
+    color: #ef1e43;
+}
+#contact{
+    background-color: #A4BE7B;
+}
+#footer{
+    background-color: #5F8D4E;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+/*MEDIA QUERIES*/
+@media(min-width: 480px) {
+    #logo{
+        display:unset;
+        padding: 20px 0 20px 20px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a{
+        display: inline;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-right: 0.2em;
+    }
+}
+@media(min-width: 720px){
+    h1{
+        font-size: 5rem;
+    }
+    h2,h3{
+        font-size: 3.5rem;
+    }
+    .home, .information{
+        width: 80%;
+        margin: auto;
+    }
+    .submit-btn{
+        width: 30rem;
+    }
+    .grid-item-one, .grid-item-two{
+        margin: auto;
+    }
+}
+@media(min-width: 900px){
+    .features-card{
+        margin: 5rem;
+        width: 22rem;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    form{
+        width: 50rem;
+    }
+    .contact label{
+        font-size: 1.8rem;
+    }
+    footer{
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}
